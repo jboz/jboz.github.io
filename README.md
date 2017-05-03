@@ -7,5 +7,7 @@ Pour me contacter visiter mon site [ifocusit.ch](http://www.ifocusit.ch)
 ## Projets :
 
 [jboz.github.io/commons-test](https://jboz.github.io/commons-test/)
+
 [jboz.github.io/plantuml-builder](https://jboz.github.io/plantuml-builder/)
+
 [jboz.github.io/living-documentation](https://jboz.github.io/living-documentation/)
