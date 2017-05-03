@@ -2,7 +2,7 @@
 
 en cours de préparation...
 
-Pour me contacter visiter mon site [ifocusit.ch](http://ifocusit)
+Pour me contacter visiter mon site [ifocusit.ch](http://www.ifocusit.ch)
 
 ## Projets :
 * https://jboz.github.io/commons-test/
