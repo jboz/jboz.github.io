@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="text-gray-700 flex flex-col">
+    <header class="relative">
+      <div class="pl-10 flex">
+        <div class="flex-auto flex-col items-center justify-between pt-15">
+          <h1 class="text-5xl uppercase font-black font-remarquable">
+            Julien Boz
+          </h1>
+          <h2 class="uppercase flex items-center gap-3">
+            Architecte Logiciel
+            <hr class="w-[50px] font-black" />
+          </h2>
+        </div>
+        <img src="/portrait.jpg" class="w-[250px] h-[350px]" alt="profile" />
+      </div>
+      <div class="absolute bottom-0 left-0 text-white flex flex-col">
+        <div
+          class="pl-10 bg-linear-60 from-[#129CB2]/80 from-50% to-transparent to-50% w-[500px] pt-3"
+        >
+          <div class="uppercase font-black text-xl font-remarquable">
+            Profile
+          </div>
+          <hr class="w-[50px] font-black" />
+          <div
+            class="h-[33px] w-[30px] bg-gray-400 absolute left-[260px] top-0 skew-x-[30deg]"
+          ></div>
+        </div>
+        <div class="pl-10 py-5 bg-[#129CB2]/80 pr-[270px]">
+          <div class="text-justify line-clamp-4">
+            Architecte logiciel passionné et développeur aguerri, avec plus de
+            18 ans d'expérience dans la conception et le développement de
+            solutions logicielles innovantes. Expert en technologies de
+            développement, pratiques agiles, et leadership technique. Mon
+            objectif est de contribuer à des projets ambitieux en apportant des
+            solutions créatives et efficaces, tout en accompagnant les équipes
+            vers l'excellence technique et organisationnelle. Je suis reconnu
+            pour mon leadership, ma capacité à fédérer les équipes, et mon
+            approche pragmatique pour résoudre les problèmes complexes.
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="pl-10 flex flex-auto">
+      <main class="flex-auto py-5 pr-5 bg-white flex flex-col">
+        <div class="uppercase font-remarquable font-black text-xl">
+          Experiences professionnelles
+        </div>
+        <hr class="w-[50px] font-black" />
+        <div id="experiences" class="pt-5 grid grid-cols-10">
+          <!-- lines will be added here -->
+        </div>
+      </main>
+      <aside
+        class="size-full w-[250px] py-5 px-3 bg-gray-800 text-white flex flex-col gap-5"
+      >
+        <div id="contacts" class="flex flex-col gap-5">
+          <div class="uppercase font-remarquable font-black text-xl">
+            Contacts
+          </div>
+          <hr class="w-[50px]" />
+          <!-- lines will be added here -->
+        </div>
+        <hr class="w-full font-black" />
+      </aside>
+    </div>
+
+    <template id="contact-item">
+      <div class="flex gap-3">
+        <div class="rounded-full bg-[#129CB2]/80 p-2">${icon}</div>
+        <input type="tel" name="phone" id="phone" value="${text}" />
+        <hr class="w-[50px]" />
+      </div>
+    </template>
+
+    <template id="experience-item">
+      <section
+        class="flex flex-col justify-start items-center 2xl:flex-row 2xl:gap-2 2xl:justify-center 2xl:items-start"
+      >
+        <div>${from}</div>
+        <div>${to}</div>
+      </section>
+      <section
+        class="col-span-9 flex flex-col p-5 border-l-2 border-gray-400 relative"
+      >
+        <h2 class="uppercase font-remarquable font-black text-xl">${title}</h2>
+        <h3 class="uppercase font-remarquable font-black text-gray-400 text-sm">
+          ${subtitle}
+        </h3>
+        <p class="py-3 text-justify">${description}</p>
+        <ul class="text-gray-400 list-disc pl-5">
+          ${tasks}
+        </ul>
+        <div
+          class="size-4 rounded-full bg-white border border-gray-400 absolute -left-2 top-4 flex items-center justify-center"
+        >
+          <div class="size-1.5 rounded-full bg-gray-400"></div>
+        </div>
+      </section>
+    </template>
+
+    <template id="experience-item-sep">
+      <hr class="w-full font-black text-gray-400" />
+      <hr class="col-span-9 w-full font-black text-gray-400" />
+    </template>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

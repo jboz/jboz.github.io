@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-remarquable: Montserrat, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0px;
+}
+
+@page {
+  size: A4;
+}
