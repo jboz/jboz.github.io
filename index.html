@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julien Boz - CV</title>
   </head>
-  <body class="text-gray-700 flex flex-col">
+  <body
+    class="text-gray-700 flex flex-col not-print:min-w-[1100px] not-print:overflow-auto"
+  >
     <header class="relative">
       <div class="pl-10 flex">
-        <div class="flex-auto flex-col items-center justify-between pt-15">
+        <div
+          class="flex-auto flex-col items-center justify-between pt-15 print:pt-5"
+        >
           <h1 class="text-5xl uppercase font-black font-remarquable">
             Julien Boz
           </h1>
@@ -18,7 +22,11 @@
             <hr class="w-[50px] font-black" />
           </h2>
         </div>
-        <img src="/portrait.jpg" class="w-[250px] h-[350px]" alt="profile" />
+        <img
+          src="/portrait.jpg"
+          class="w-[250px] h-[350px] print:z-10"
+          alt="profile"
+        />
       </div>
       <div class="absolute bottom-0 left-0 text-white flex flex-col">
         <div
@@ -33,21 +41,20 @@
           ></div>
         </div>
         <div class="pl-10 py-5 bg-[#129CB2]/80 pr-[270px]">
-          <div class="text-justify line-clamp-4">
+          <div class="text-justify line-clamp-none">
             Architecte logiciel passionné et développeur aguerri, avec plus de
             18 ans d'expérience dans la conception et le développement de
             solutions logicielles innovantes. Expert en technologies de
-            développement, pratiques agiles, et leadership technique. Mon
+            développement, pratiques agiles et leadership technique. Mon
             objectif est de contribuer à des projets ambitieux en apportant des
-            solutions créatives et efficaces, tout en accompagnant les équipes
-            vers l'excellence technique et organisationnelle. Je suis reconnu
-            pour mon leadership, ma capacité à fédérer les équipes, et mon
-            approche pragmatique pour résoudre les problèmes complexes.
+            solutions créatives et efficaces. Je suis reconnu pour mon
+            leadership, ma capacité à fédérer les équipes, et mon approche
+            pragmatique pour résoudre les problèmes complexes.
           </div>
         </div>
       </div>
     </header>
-    <div class="pl-10 flex flex-auto">
+    <section class="pl-10 flex flex-auto">
       <main class="flex-auto py-5 pr-5 bg-white flex flex-col">
         <div class="uppercase font-remarquable font-black text-xl">
           Experiences professionnelles
@@ -99,7 +106,7 @@
         </div>
         <hr class="w-full font-black" />
       </aside>
-    </div>
+    </section>
 
     <template id="contact-item">
       <div class="flex gap-3">
@@ -110,7 +117,7 @@
     </template>
 
     <template id="experience-item">
-      <section class="grid grid-cols-10 ${beforeClass}">
+      <article class="grid grid-cols-10 ${beforeClass}">
         <div
           class="flex flex-col justify-start items-center 2xl:flex-row 2xl:gap-2 2xl:justify-center 2xl:items-start"
         >
@@ -138,7 +145,7 @@
             <div class="size-1.5 rounded-full bg-gray-400"></div>
           </div>
         </div>
-      </section>
+      </article>
     </template>
 
     <template id="experience-item-sep">
