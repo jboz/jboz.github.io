@@ -53,12 +53,12 @@
           Experiences professionnelles
         </div>
         <hr class="w-[50px] font-black" />
-        <div id="experiences" class="pt-5 grid grid-cols-10">
+        <div id="experiences" class="pt-5">
           <!-- lines will be added here -->
         </div>
       </main>
       <aside
-        class="size-full w-[250px] py-5 px-3 bg-gray-800 text-white flex flex-col gap-5"
+        class="h-full print:h-full w-[250px] py-5 px-3 bg-gray-800 text-white flex flex-col gap-5"
       >
         <div id="contacts" class="flex flex-col gap-5">
           <div class="uppercase font-remarquable font-black text-xl">
@@ -80,27 +80,33 @@
     </template>
 
     <template id="experience-item">
-      <section
-        class="flex flex-col justify-start items-center 2xl:flex-row 2xl:gap-2 2xl:justify-center 2xl:items-start"
-      >
-        <div>${from}</div>
-        <div>${to}</div>
-      </section>
-      <section
-        class="col-span-9 flex flex-col p-5 border-l-2 border-gray-400 relative"
-      >
-        <h2 class="uppercase font-remarquable font-black text-xl">${title}</h2>
-        <h3 class="uppercase font-remarquable font-black text-gray-400 text-sm">
-          ${subtitle}
-        </h3>
-        <p class="py-3 text-justify">${description}</p>
-        <ul class="text-gray-400 list-disc pl-5">
-          ${tasks}
-        </ul>
+      <section class="grid grid-cols-10 ${beforeClass}">
         <div
-          class="size-4 rounded-full bg-white border border-gray-400 absolute -left-2 top-4 flex items-center justify-center"
+          class="flex flex-col justify-start items-center 2xl:flex-row 2xl:gap-2 2xl:justify-center 2xl:items-start"
         >
-          <div class="size-1.5 rounded-full bg-gray-400"></div>
+          <div>${from}</div>
+          <div>${to}</div>
+        </div>
+        <div
+          class="col-span-9 flex flex-col p-5 border-l-2 border-gray-400 relative"
+        >
+          <h2 class="uppercase font-remarquable font-black text-xl">
+            ${title}
+          </h2>
+          <h3
+            class="uppercase font-remarquable font-black text-gray-400 text-sm"
+          >
+            ${subtitle}
+          </h3>
+          <p class="py-3 text-justify">${description}</p>
+          <ul class="text-gray-400 list-disc pl-5">
+            ${tasks}
+          </ul>
+          <div
+            class="size-4 rounded-full bg-white border border-gray-400 absolute -left-2 top-4 flex items-center justify-center"
+          >
+            <div class="size-1.5 rounded-full bg-gray-400"></div>
+          </div>
         </div>
       </section>
     </template>

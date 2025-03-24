@@ -22,6 +22,7 @@ const exps = [
       <li>Java / SQL / Web / Angular.</li>
       <li>Quarkus / Spring / Kafka / REST / Oracle / Sql Server.</li>
     `,
+    beforeClass: "",
   },
   {
     title: "Scrum Master",
@@ -38,6 +39,7 @@ const exps = [
       <li>problem Solver.</li>
       <li>Amélioration continue.</li>
     `,
+    beforeClass: "",
   },
   {
     title: "Architect / Developper",
@@ -54,6 +56,7 @@ const exps = [
       <li>Java / SQL / HTMl / CSS / Javascript.</li>
       <li>JEE / Spring / Hibernate / JSF / Jboss / Oracle / SOAP / REST.</li>
     `,
+    beforeClass: "",
   },
   {
     title: "Architect IT / Developper",
@@ -68,6 +71,7 @@ const exps = [
       <li>Java / SQL.</li>
       <li>Spring / EJB / Hibernate / SOAP / Oracle / AS400 / WebSphere / SOA.</li>
     `,
+    beforeClass: "break-before-page print:pt-10",
   },
   {
     title: "Architect IT / Developper",
@@ -85,6 +89,7 @@ const exps = [
       <li>TDD / BDD / DDD.</li>
       <li>Spring / EJB / Hibernate / SOAP / Oracle / AS400 / WebSphere / SOA.</li>
     `,
+    beforeClass: "",
   },
 ];
 
