@@ -1,4 +1,4 @@
-name: Deploy static content to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -27,13 +27,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: your-node-version # Specify the Node.js version you are using
+          node-version: 20
 
       - name: Install dependencies
         run: npm ci
 
       - name: Build static content
-        run: npm run build # This command should generate the 'dist' folder
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -41,7 +41,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./dist" # Upload the 'dist' folder
+          path: "./dist"
 
       - name: Deploy to GitHub Pages
         id: deployment
