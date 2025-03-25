@@ -2,14 +2,14 @@ import { interpolate } from "./interpolate.util";
 
 const exps = [
   {
-    title: "Software Architect",
+    title: "Software Architect / Problem Solver",
     subtitle: "La Mobilière - assurance vie",
     from: "2019",
     to: "auj.",
     description: `
       Conception d'architectures orientées microservices. Design API REST, messaging kafka.<br/>
       Définition des composants et intégrations dans une architecture d'entreprise.<br/>
-      Migrations et rénovations techniques et fonctionnelles.<br/>
+      Migrations et rénovations techniques et fonctionnelles vers le cloud.<br/>
       Leadership dans un environnement agile SAFe/Scrum avec des feature teams, en fédérant les équipes autour d'objectifs communs.<br />
       Encadrement des développement.
     `,
