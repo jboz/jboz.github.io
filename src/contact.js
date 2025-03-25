@@ -30,7 +30,7 @@ export const contacts = () => {
   return `
     ${interpolate(item.innerHTML, {
       icon: TelIcon,
-      text: "+33 6 86 70 99 93",
+      text: "06 86 70 99 93",
     })}
     ${interpolate(item.innerHTML, {
       icon: MailIcon,

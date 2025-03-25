@@ -7,20 +7,21 @@ const exps = [
     from: "2019",
     to: "auj.",
     description: `
+      Dans le domaine de la vente d'assurance vie.<br />
       Conception d'architectures orientées microservices.<br/>
-      Définition de composants et intégration dans une architecture d'entreprise.<br/>
+      Définition des composants et intégrations dans une architecture d'entreprise.<br/>
       Migrations et rénovations techniques et fonctionnelles.<br/>
       Leadership dans un environnement agile SAFe/Scrum avec des feature teams, en fédérant les équipes autour d'objectifs communs.
     `,
     tasks: `
       <li>Conception pilotée par le domaine.</li>
-      <li>Méthodes agiles.</li>
       <li>Analyse des exigences et uses cases.</li>
-      <li>Planification.</li>
-      <li>Amélioration des processus.</li>
+      <li>Amélioration des processus / Prototypage / POC.</li>
+      <li>Méthodes agiles / Planification Safe.</li>
       <li>TDD / BDD / DDD.</li>
-      <li>Java / SQL / Web / Angular.</li>
+      <li>Java / SQL / Typescript / Angular.</li>
       <li>Quarkus / Spring / Kafka / REST / Oracle / Sql Server.</li>
+      <li>Cloud Azure / Kubernetes / Terraform / Gitlab / Bitbucket.</li>
     `,
     beforeClass: "",
   },
@@ -30,7 +31,7 @@ const exps = [
     from: "2017",
     to: "2019",
     description: `
-      Trouver des solutions, accompagner le changement agile dans l'organisation, coacher les équipes scrum.
+      Trouver des solutions, accompagner les changements agiles dans l'organisation, coacher les équipes scrum.
       Sensible aux pratiques du management 3.0.
     `,
     tasks: `
@@ -47,7 +48,7 @@ const exps = [
     from: "2012",
     to: "2017",
     description: `
-      Développement logicielle de vente.<br />
+      Développement logiciel de vente.<br />
       Conseils, formations et développements.<br />
       Code review, leader technique.<br/>
     `,
@@ -56,7 +57,7 @@ const exps = [
       <li>Java / SQL / HTMl / CSS / Javascript.</li>
       <li>JEE / Spring / Hibernate / JSF / Jboss / Oracle / SOAP / REST.</li>
     `,
-    beforeClass: "",
+    beforeClass: "break-before-page print:pt-10",
   },
   {
     title: "Architect IT / Developper",
@@ -71,7 +72,7 @@ const exps = [
       <li>Java / SQL.</li>
       <li>Spring / EJB / Hibernate / SOAP / Oracle / AS400 / WebSphere / SOA.</li>
     `,
-    beforeClass: "break-before-page print:pt-10",
+    beforeClass: "",
   },
   {
     title: "Architect IT / Developper",
