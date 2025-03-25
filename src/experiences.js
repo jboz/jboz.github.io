@@ -2,24 +2,24 @@ import { interpolate } from "./interpolate.util";
 
 const exps = [
   {
-    title: "Architect",
+    title: "Software Architect",
     subtitle: "La Mobilière - assurance vie",
     from: "2019",
     to: "auj.",
     description: `
-      Dans le domaine de la vente d'assurance vie.<br />
-      Conception d'architectures orientées microservices.<br/>
+      Conception d'architectures orientées microservices. Design API REST, messaging kafka.<br/>
       Définition des composants et intégrations dans une architecture d'entreprise.<br/>
       Migrations et rénovations techniques et fonctionnelles.<br/>
-      Leadership dans un environnement agile SAFe/Scrum avec des feature teams, en fédérant les équipes autour d'objectifs communs.
+      Leadership dans un environnement agile SAFe/Scrum avec des feature teams, en fédérant les équipes autour d'objectifs communs.<br />
+      Encadrement des développement.
     `,
     tasks: `
       <li>Conception pilotée par le domaine.</li>
       <li>Analyse des exigences et uses cases.</li>
       <li>Amélioration des processus / Prototypage / POC.</li>
-      <li>Méthodes agiles / Planification Safe.</li>
+      <li>Méthodes agiles / Planification SAFe / JIRA.</li>
       <li>TDD / BDD / DDD.</li>
-      <li>Java / SQL / Typescript / Angular.</li>
+      <li>PlantUML / Miro / Java / SQL / Typescript / Angular.</li>
       <li>Quarkus / Spring / Kafka / REST / Oracle / Sql Server.</li>
       <li>Cloud Azure / Kubernetes / Terraform / Gitlab / Bitbucket.</li>
     `,
@@ -31,24 +31,24 @@ const exps = [
     from: "2017",
     to: "2019",
     description: `
-      Trouver des solutions, accompagner les changements agiles dans l'organisation, coacher les équipes scrum.
-      Sensible aux pratiques du management 3.0.
+      Résolution de problèmes, accompagnement aux changements agiles dans l'organisation, coacher les équipes scrum.
+      Sensibilté aux pratiques du management 3.0.
     `,
     tasks: `
       <li>Leadership.</li>
-      <li>Méthodes agiles.</li>
-      <li>problem Solver.</li>
+      <li>Méthodes agiles / JIRA / Kanban / Scrum / Miro.</li>
+      <li>Problem Solver.</li>
       <li>Amélioration continue.</li>
     `,
     beforeClass: "",
   },
   {
-    title: "Architect / Developper",
+    title: "Software Architect / Developper",
     subtitle: "La Mobilière - assurance vie",
     from: "2012",
     to: "2017",
     description: `
-      Développement logiciel de vente.<br />
+      Définition des composants et leurs intégrations, API REST.
       Conseils, formations et développements.<br />
       Code review, leader technique.<br/>
     `,
@@ -65,12 +65,11 @@ const exps = [
     from: "2010",
     to: "2012",
     description: `
-      Développement, qualité, analyse et architecture dans les différents projets du service IT.<br/>
+      Développement d'interfaces techniques et fonctionnelles.<br />
+      Analyse des exigences et implémentation de nouvelles fonctionnalités.<br />
     `,
     tasks: `
-      <li>TDD / BDD / DDD.</li>
-      <li>Java / SQL.</li>
-      <li>Spring / EJB / Hibernate / SOAP / Oracle / AS400 / WebSphere / SOA.</li>
+      <li>Java / Spring / EJB / Hibernate / SOAP / Oracle / WebSphere.</li>
     `,
     beforeClass: "",
   },
@@ -80,15 +79,15 @@ const exps = [
     from: "2005",
     to: "2010",
     description: `
-      Travaillé dans différents secteurs d'activités : banque, assurance, éditeur, industrie, pharmacie, ...<br />
-      Toujours force de proposition tant au niveau technique que fonctionnel.<br />
-      Dans mes différentes missions, j'ai participé à la conception et à l'implémentation de solutions informatiques.<br />
+      Différents secteurs d'activités : banque, assurance, éditeur, industrie, pharmacie, ...<br />
+      Force de proposition tant au niveau technique que fonctionnel.<br />
+      Conception et implémentation de solutions informatiques.<br />
       Dans différentes phase du cycle de vie d'un projet : étude, spécification, architecture, développement, recette, maintenance, évolution.<br />
-      Sur des projets de petites et moyennes tailles, au sein d'équipes allant jusqu'a 20 personnes.
     `,
     tasks: `
       <li>TDD / BDD / DDD.</li>
-      <li>Spring / EJB / Hibernate / SOAP / Oracle / AS400 / WebSphere / SOA.</li>
+      <li>Java / Bash / SQL / HTML5 / Git / Maven / JIRA.</li>
+      <li>JEE / Spring / EJB / Hibernate / REST / SOAP / Oracle.</li>
     `,
     beforeClass: "",
   },
