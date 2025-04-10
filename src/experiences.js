@@ -11,7 +11,8 @@ const exps = [
       Définition des composants et intégrations dans une architecture d'entreprise.<br/>
       Migrations et rénovations techniques et fonctionnelles vers le cloud.<br/>
       Leadership dans un environnement agile SAFe/Scrum avec des feature teams, en fédérant les équipes autour d'objectifs communs.<br />
-      Encadrement des développement.
+      Encadrement des développement.<br/>
+      Developpement de projets d'innovations sur les technologies LLm, langchain4j, living-documentation, BDD, RDF.
     `,
     tasks: `
       <li>Conception pilotée par le domaine.</li>
