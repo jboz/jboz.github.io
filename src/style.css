@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 @import "tailwindcss";
+@import "tailwindcss-intersect";
+@import "tailwindcss-animated";
 
 @theme {
   --font-remarquable: Montserrat, sans-serif;

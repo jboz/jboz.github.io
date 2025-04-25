@@ -29,12 +29,12 @@ export const contacts = () => {
   const item = document.querySelector("#contact-item");
   return `
     ${interpolate(item.innerHTML, {
-      icon: TelIcon,
-      text: "06 86 70 99 93",
+      icon: `<a href='tel:+33686709993'>${TelIcon}</a>`,
+      text: "<a href='tel:+33686709993'>06 86 70 99 93</a>",
     })}
     ${interpolate(item.innerHTML, {
-      icon: MailIcon,
-      text: "julienboz@gmail.com",
+      icon: `<a href='mailto:julienboz@gmail.com'>${MailIcon}</a>`,
+      text: "<a href='mailto:julienboz@gmail.com'>julienboz@gmail.com</a>",
     })}
     ${interpolate(item.innerHTML, {
       icon: HomeIcon,

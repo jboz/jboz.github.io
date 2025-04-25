@@ -11,16 +11,23 @@
   >
     <header class="relative">
       <div class="pl-10 flex">
-        <div
-          class="flex-auto flex-col items-center justify-between pt-15 print:pt-5"
-        >
-          <h1
-            class="text-5xl uppercase font-black font-remarquable flex w-full justify-between pr-5"
-          >
-            <span>Julien Boz</span>
-            <a href="/Julien_Boz_CV.pdf" class="size-7 print:hidden">
+        <div class="flex-auto pr-5 pt-15 print:pt-5 flex">
+          <div class="flex-auto flex flex-col">
+            <h1 class="text-5xl uppercase font-remarquable">Julien Boz</h1>
+            <h2
+              class="uppercase flex items-center gap-3 animate-rotate-x animate-twice"
+            >
+              Architecte Logiciel
+              <hr class="w-[50px]" />
+            </h2>
+          </div>
+          <div class="print:hidden flex gap-5">
+            <a
+              href="/Julien_Boz_CV.pdf"
+              title="Télécharger le CV au format PDF"
+              class="size-8 animate-shake animate-thrice animate-delay-[2500ms] animate-ease-out"
+            >
               <svg viewBox="0 0 24 24" fill="none">
-                <g stroke-linecap="round" stroke-linejoin="round"></g>
                 <g>
                   <path
                     fill-rule="evenodd"
@@ -31,11 +38,30 @@
                 </g>
               </svg>
             </a>
-          </h1>
-          <h2 class="uppercase flex items-center gap-3">
-            Architecte Logiciel
-            <hr class="w-[50px] font-black" />
-          </h2>
+            <a
+              href="https://www.linkedin.com/in/julien-boz/"
+              target="_blank"
+              title="Profil LinkedIn"
+              class="size-6"
+            >
+              <svg fill="#1f2937" viewBox="-143 145 512 512">
+                <g>
+                  <g>
+                    <path
+                      d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z M339,617c0,5.5-4.5,10-10,10h-432c-5.5,0-10-4.5-10-10V185c0-5.5,4.5-10,10-10h432c5.5,0,10,4.5,10,10V617z"
+                    ></path>
+                    <rect x="-8.5" y="348.4" width="49.9" height="159.7"></rect>
+                    <path
+                      d="M177.7,346.9c-28.6,0-46.5,15.6-49.8,26.6v-25.1H71.8c0.7,13.3,0,159.7,0,159.7h56.1v-86.3c0-4.9-0.2-9.7,1.2-13.1 c3.8-9.6,12.1-19.6,27-19.6c19.5,0,28.3,14.8,28.3,36.4v82.6H241v-88.8C241,369.9,213.2,346.9,177.7,346.9z"
+                    ></path>
+                    <path
+                      d="M15.4,273c-18.4,0-30.5,11.9-30.5,27.7c0,15.5,11.7,27.7,29.8,27.7h0.4c18.8,0,30.5-12.3,30.4-27.7 C45.1,284.9,33.8,273,15.4,273z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
         </div>
         <img
           src="/portrait.jpg"
@@ -47,12 +73,10 @@
         <div
           class="pl-10 bg-linear-60 from-[#129CB2]/80 from-50% to-transparent to-50% w-[500px] pt-3"
         >
-          <div class="uppercase font-black text-xl font-remarquable">
-            Profil
-          </div>
-          <hr class="w-[50px] font-black" />
+          <div class="uppercase text-xl font-remarquable">Profil</div>
+          <hr class="w-[50px]" />
           <div
-            class="h-[33px] w-[30px] bg-gray-400 absolute left-[260px] top-0 skew-x-[30deg]"
+            class="h-[33px] w-[30px] bg-gray-400 absolute left-[260px] top-0 skew-x-[30deg] print:hidden"
           ></div>
         </div>
         <div class="pl-10 py-5 bg-[#129CB2]/80 pr-[270px]">
@@ -69,29 +93,29 @@
         </div>
       </div>
     </header>
-    <section class="pl-10 flex flex-auto">
+    <div class="pl-10 flex flex-auto">
       <main class="flex-auto py-5 pr-5 bg-white flex flex-col">
-        <div class="uppercase font-remarquable font-black text-xl">
+        <div class="uppercase font-remarquable text-xl">
           Experiences professionnelles
         </div>
-        <hr class="w-[50px] font-black" />
+        <hr class="w-[50px]" />
         <div id="experiences" class="pt-5">
           <!-- lines will be added here -->
         </div>
       </main>
       <aside
-        class="h-full print:h-[120%] w-[250px] py-5 px-3 bg-gray-800 text-white flex flex-col gap-5"
+        class="h-full print:h-[123.9%] w-[250px] min-w-[250px] py-5 px-3 bg-gray-800 text-white flex flex-col gap-5"
       >
-        <div id="contacts" class="flex flex-col gap-5">
-          <div class="uppercase font-remarquable font-black text-xl">
+        <div id="contacts" class="w-full flex flex-col gap-5">
+          <div class="uppercase font-remarquable text-xl">
             Contacts
             <hr class="w-[50px]" />
           </div>
           <!-- lines will be added here -->
         </div>
-        <hr class="w-full font-black" />
-        <div class="flex flex-col gap-5">
-          <div class="uppercase font-remarquable font-black text-xl">
+        <hr class="w-full" />
+        <div id="certifications" class="w-full flex flex-col gap-5">
+          <div class="uppercase font-remarquable text-xl">
             Certifications
             <hr class="w-[50px]" />
           </div>
@@ -119,9 +143,9 @@
             </div>
           </div>
         </div>
-        <hr class="w-full font-black" />
-        <div class="flex flex-col gap-5">
-          <div class="uppercase font-remarquable font-black text-xl">
+        <hr class="w-full" />
+        <div id="langues" class="w-full flex flex-col gap-5">
+          <div class="uppercase font-remarquable text-xl">
             Langues
             <hr class="w-[50px]" />
           </div>
@@ -135,15 +159,14 @@
             <div class="text-sm text-gray-400">Métiers/techniques</div>
           </div>
         </div>
-        <hr class="w-full font-black" />
+        <hr class="w-full" />
       </aside>
-    </section>
+    </div>
 
     <template id="contact-item">
-      <div class="flex gap-3">
+      <div class="flex gap-3 items-center">
         <div class="rounded-full bg-[#129CB2]/80 p-2">${icon}</div>
-        <input type="tel" name="phone" id="phone" value="${text}" />
-        <hr class="w-[50px]" />
+        ${text}
       </div>
     </template>
 
@@ -158,12 +181,8 @@
         <div
           class="col-span-9 flex flex-col p-5 border-l-2 border-gray-400 relative"
         >
-          <h2 class="uppercase font-remarquable font-black text-xl">
-            ${title}
-          </h2>
-          <h3
-            class="uppercase font-remarquable font-black text-gray-400 text-sm"
-          >
+          <h2 class="uppercase font-remarquable text-xl">${title}</h2>
+          <h3 class="uppercase font-remarquable text-gray-400 text-sm">
             ${subtitle}
           </h3>
           <p class="py-3 text-justify">${description}</p>
@@ -180,8 +199,8 @@
     </template>
 
     <template id="experience-item-sep">
-      <hr class="w-full font-black text-gray-400" />
-      <hr class="col-span-9 w-full font-black text-gray-400" />
+      <hr class="w-full text-gray-400" />
+      <hr class="col-span-9 w-full text-gray-400" />
     </template>
 
     <script type="module" src="/src/main.js"></script>
