@@ -2,7 +2,7 @@ import { interpolate } from "./interpolate.util";
 
 const exps = [
   {
-    title: "Software Architect / Problem Solver",
+    title: "Software Architect / Developper / Problem Solver",
     subtitle: "La Mobilière - assurance vie",
     from: "2019",
     to: "auj.",
