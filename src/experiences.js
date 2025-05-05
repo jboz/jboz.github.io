@@ -55,7 +55,7 @@ const exps = [
     `,
     tasks: `
       <li>TDD / BDD / DDD.</li>
-      <li>Java / SQL / HTMl / CSS / Javascript.</li>
+      <li>Java / Kotlin / SQL / HTML / CSS / Javascript / Typescript.</li>
       <li>JEE / Spring / Hibernate / JSF / Jboss / Oracle / SOAP / REST.</li>
     `,
     beforeClass: "break-before-page print:pt-10",
