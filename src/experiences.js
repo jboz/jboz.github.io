@@ -33,13 +33,13 @@ const exps = [
     to: "2019",
     description: `
       Résolution de problèmes, accompagnement aux changements agiles dans l'organisation, coacher les équipes scrum.
-      Sensibilté aux pratiques du management 3.0.
     `,
     tasks: `
       <li>Leadership.</li>
       <li>Méthodes agiles / JIRA / Kanban / Scrum / Miro.</li>
       <li>Problem Solver.</li>
       <li>Amélioration continue.</li>
+      <li>Management 3.0.</li>
     `,
     beforeClass: "",
   },
@@ -49,7 +49,7 @@ const exps = [
     from: "2012",
     to: "2017",
     description: `
-      Définition des composants et leurs intégrations, API REST.
+      Définition des composants et leurs intégrations, API REST.<br />
       Conseils, formations et développements.<br />
       Code review, leader technique.<br/>
     `,
