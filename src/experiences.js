@@ -43,7 +43,7 @@ const exps = [
       <li>Amélioration des processus / Prototypage / POC.</li>
       <li>Méthodes agiles / Planification SAFe / JIRA.</li>
       <li>Approche DDD pour l'architecture du domaine.</li>
-      <li>PlantUML / Miro / Java / SQL / Typescript / Angular.</li>
+      <li>PlantUML / Miro / Java / Kotlin / SQL / Typescript / Angular.</li>
       <li>Quarkus / Spring / Kafka / REST / Oracle / Sql Server.</li>
       <li>Cloud Azure / Kubernetes / Terraform / Gitlab / Bitbucket.</li>
     `,
@@ -58,11 +58,8 @@ const exps = [
       Résolution de problèmes, accompagnement aux changements agiles dans l'organisation, coacher les équipes scrum.
     `,
     tasks: `
-      <li>Leadership.</li>
-      <li>Méthodes agiles / JIRA / Kanban / Scrum / Miro.</li>
-      <li>Problem Solver.</li>
-      <li>Amélioration continue.</li>
-      <li>Management 3.0.</li>
+    <li>Leadership. Problem Solver. Amélioration continue. Management 3.0.</li>
+    <li>Méthodes agiles / JIRA / Kanban / Scrum / Miro.</li>
     `,
     beforeClass: "",
   },
@@ -81,7 +78,8 @@ const exps = [
       <li>Java / Kotlin / SQL / HTML / CSS / Javascript / Typescript.</li>
       <li>JEE / Spring / Hibernate / JSF / Jboss / Oracle / SOAP / REST.</li>
     `,
-    beforeClass: "break-before-page print:pt-10",
+    beforeClass: "",
+    // beforeClass: "break-before-page print:pt-10",
   },
   {
     title: "Architect IT / Developper",
