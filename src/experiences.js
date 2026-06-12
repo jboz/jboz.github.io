@@ -2,10 +2,33 @@ import { interpolate } from "./interpolate.util";
 
 const exps = [
   {
-    title: "Software Architect / Developper / Problem Solver",
+    title: "Solution Architect",
+    subtitle: "AVEM - Crédit Agricole",
+    from: "07/2025",
+    to: "auj",
+    description: `
+      Refonte de l'architecture d'entreprise pour soutenir les ambitions et objectifs de l'entreprise.<br/>
+      Urbanisation du SI, mise en place d'une architecture agile et réactive.<br/>
+      Participation à toutes les phases de RFI/RFP. Définition des composants, intégrations et interfaces.<br/>
+      Définition des roadmaps de migration et de modernisation du SI.<br/>
+      Participation aux activités du Groupe CA pour les sujets Innovation, IA et Data.
+    `,
+    tasks: `
+      <li>Découpage en domaines et bounded-context du SI, alignement avec les objectifs métiers.</li>
+      <li>Rédaction et alignement des capacités et fonctions portées par les différents domaines.</li>
+      <li>Planification et priorisation des roadmap de migration.</li>
+      <li>Mise en marche des brown migration.</li>
+      <li>Expertise technique sur les sujets d'architecture.</li>
+      <li>Soutiens aux équipes de développements.</li>
+      <li>Business Owner pour la mise en plqce d'une nouvelle usine logicielle performante.</li>
+    `,
+    beforeClass: "",
+  },
+  {
+    title: "Software Architect / Problem Solver",
     subtitle: "La Mobilière - assurance vie",
     from: "2019",
-    to: "auj.",
+    to: "05/2025",
     description: `
       Conception d'architectures orientées microservices. Design API REST, messaging kafka.<br/>
       Définition des composants et intégrations dans une architecture d'entreprise.<br/>
@@ -19,7 +42,7 @@ const exps = [
       <li>Analyse des exigences et uses cases.</li>
       <li>Amélioration des processus / Prototypage / POC.</li>
       <li>Méthodes agiles / Planification SAFe / JIRA.</li>
-      <li>TDD / BDD / DDD.</li>
+      <li>Approche DDD pour l'architecture du domaine.</li>
       <li>PlantUML / Miro / Java / SQL / Typescript / Angular.</li>
       <li>Quarkus / Spring / Kafka / REST / Oracle / Sql Server.</li>
       <li>Cloud Azure / Kubernetes / Terraform / Gitlab / Bitbucket.</li>
